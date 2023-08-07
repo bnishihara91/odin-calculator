@@ -60,6 +60,13 @@ body {
     background-color: palevioletred;
 }
 
+.first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
 #screen {
     width: 300px;
     border: 1px solid salmon;
