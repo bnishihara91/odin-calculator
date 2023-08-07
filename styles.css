@@ -28,3 +28,8 @@ body {
     border: 1px solid gold;
     border-radius: 10px;
 }
+
+.btn.equal {
+    border: 1px solid pink;
+    border-radius: 10px;
+}
