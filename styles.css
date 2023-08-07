@@ -28,6 +28,11 @@ body {
     border-radius: 10px;
 }
 
+.btn.operator:hover {
+    background-color: paleturquoise;
+}
+
+
 .btn.decimal {
     border: 1px solid gold;
     border-radius: 10px;
