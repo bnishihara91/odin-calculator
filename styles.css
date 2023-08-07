@@ -13,3 +13,8 @@ body {
     margin: 15px;
     font-size: 40px;
 }
+
+.btn.number {
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+}
