@@ -19,6 +19,10 @@ body {
     border-radius: 10px;
 }
 
+.btn.number:hover {
+    background-color: palegreen;
+}
+
 .btn.operator {
     border: 1px solid steelblue;
     border-radius: 10px;
