@@ -38,6 +38,10 @@ body {
     border-radius: 10px;
 }
 
+.btn.decimal:hover {
+    background-color: palegoldenrod;
+}
+
 .btn.equal {
     border: 1px solid pink;
     border-radius: 10px;
