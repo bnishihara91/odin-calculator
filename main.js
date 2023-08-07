@@ -1,3 +1,7 @@
+let operator = "";
+let previousValue = "";
+let currentValue = "";
+
 document.addEventListener("DOMContentLoaded", function() {
     //Store all components on HTML in our JS
     let clear = document.querySelector("#clear-btn");
