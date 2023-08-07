@@ -23,3 +23,8 @@ body {
     border: 1px solid steelblue;
     border-radius: 10px;
 }
+
+.btn.decimal {
+    border: 1px solid gold;
+    border-radius: 10px;
+}
