@@ -44,6 +44,10 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
     })
+
+    decimal.addEventListener("click", function() {
+        addDecimal();
+    })
 })
 
 function handleNumber(num) {
