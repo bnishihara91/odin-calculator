@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     operators.forEach((op) => op.addEventListener("click", function(e) {
         handleOperator(e.target.textContent)
+        previousScreen.textContent = previousValue + " " + operator;
+        currentScreen.textContent = currentValue;
     }))
 })
 
