@@ -32,6 +32,10 @@ document.addEventListener("DOMContentLoaded", function() {
         previousScreen.textContent = currentValue;
         currentScreen.textContent = currentValue;
     })
+
+    equal.addEventListener("click", function() {
+        calculate();
+    })
 })
 
 function handleNumber(num) {
