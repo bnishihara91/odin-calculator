@@ -64,3 +64,7 @@ function calculate() {
         previousValue /= currentValue;
     }
 }
+
+function roundNumber(num) {
+    return Math.round(num * 1000) / 1000;
+}
