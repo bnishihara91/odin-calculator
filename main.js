@@ -29,3 +29,9 @@ function handleNumber(num) {
     currentValue += num;
     }
 }
+
+function handleOperator(op) {
+    operator = op;
+    previousValue = currentValue;
+    currentValue = '';
+}
