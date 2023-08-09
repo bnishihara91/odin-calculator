@@ -18,6 +18,10 @@ document.addEventListener("DOMContentLoaded", function() {
         handleNumber(e.target.textContent)
         currentScreen.textContent = currentValue;
     }))
+
+    operators.forEach((op) => op.addEventListener("click", function(e) {
+        handleOperator(e.target.textContent)
+    }))
 })
 
 function handleNumber(num) {
