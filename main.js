@@ -45,3 +45,18 @@ function handleOperator(op) {
     previousValue = currentValue;
     currentValue = '';
 }
+
+function calculate() {
+    previousValue = Number(previousValue);
+    currentValue = Number(currentValue);
+    
+    if (operator === "+") {
+        previousValue += currentValue;
+    } else if (operator === "-") {
+        previousValue -= currentValue;
+    } else if (operator === "x") {
+        previousValue *= currentValue;
+    } else {
+        previousValue /= currentValue;
+    }
+}
