@@ -63,6 +63,10 @@ function calculate() {
     } else {
         previousValue /= currentValue;
     }
+
+    previousValue = roundNumber(previousValue);
+    previousValue = previousValue.toString();
+    currentValue = previousValue.toString();
 }
 
 function roundNumber(num) {
